@@ -193,7 +193,7 @@ body .pika-label {
 .nf-form-cont .two-fourths,
 .nf-form-cont .two-sixths,
 .nf-form-cont .two-thirds {
-  clear: initial;
+  clear: inherit;
   float: left;
   margin-left: 2.564102564102564%; }
   .nf-form-cont .five-sixths .inside,
@@ -815,7 +815,6 @@ ADJUST SOME LABEL LEFT & RIGHT ISSUES
 .label-right .listradio-wrap .nf-field-label,
 .label-right .listcheckbox-wrap .nf-field-label {
   -ms-flex-align: start;
-      -ms-grid-row-align: flex-start;
       align-items: flex-start; }
 
 .label-left .textarea-wrap .nf-field-label,

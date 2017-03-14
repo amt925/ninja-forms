@@ -168,7 +168,7 @@ COLORS
 As minimal as possible
 ----------------------------------*/
 .ninja-forms-req-symbol,
-.nf-error-msg, {
+.nf-error-msg {
     color: #E80000;
 }
 .nf-error {
@@ -257,7 +257,7 @@ body {
     .two-fourths,
     .two-sixths,
     .two-thirds {
-        clear: initial;
+        clear: inherit;
         float: left;
         margin-left: 2.564102564102564%;
         .inside {
